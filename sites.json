@@ -1,0 +1,29 @@
+{
+  "cellphones": {
+    "base": "https://cellphones.com.vn",
+    "seeds": ["/", "/mobile.html", "/laptop.html"],
+    "sitemaps": ["/sitemap/sitemap_index.xml?v=google"],
+    "exclude": ["/sforum", "/customer", "/checkout", "/catalogsearch", "/order", "/gioi-thieu", "/chinh-sach"],
+    "spec_rows": ".technical-content tr, .technical-content li, .technical-content-item",
+    "spec_key": "th, td:first-child, p:first-child",
+    "spec_value": "td:last-child, div:last-child"
+  },
+  "tgdd": {
+    "base": "https://www.thegioididong.com",
+    "seeds": ["/", "/dtdd", "/laptop", "/may-tinh-bang", "/phu-kien"],
+    "sitemaps": ["/sitemap.xml"],
+    "exclude": ["/tin-tuc", "/hoi-dap", "/game-app", "/lich-su-mua-hang", "/cart", "/dang-nhap"],
+    "spec_rows": ".parameter li, .parameter__list li",
+    "spec_key": "p:first-child",
+    "spec_value": "div"
+  },
+  "phongvu": {
+    "base": "https://phongvu.vn",
+    "seeds": ["/", "/c/laptop", "/c/dien-thoai", "/c/may-tinh-bang"],
+    "sitemaps": ["/sitemap.xml"],
+    "exclude": ["/cong-nghe", "/account", "/checkout", "/cart", "/login"],
+    "spec_rows": "",
+    "spec_key": "",
+    "spec_value": ""
+  }
+}

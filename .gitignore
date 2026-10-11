@@ -1,0 +1,30 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Crawl output and progress databases
+data/
+*.sqlite*
+*.db
+*.db-*
+*.jsonl
+!sample-cellphones.jsonl
+*.log
+urls.txt
+
+# Credentials and local tooling
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
